@@ -1,0 +1,21 @@
+{
+    "chrome-version": {
+        "type": "eval",
+        "text": "process.versions['chrome']"
+    },
+    "node-version": {
+        "type": "eval",
+        "text": "process.versions['node']"
+    },
+    "electron-version": {
+        "type": "eval",
+        "text" : "process.versions['electron']"
+    },
+    "8+2": {
+        "type": "calculation"
+    },
+    "world": {
+        "type": "direct",
+        "text": "world"
+    }
+}
