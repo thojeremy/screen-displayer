@@ -6,6 +6,7 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <title>Screen Displayer</title>
+    <link rel="stylesheet" href="./app/resources/external-libs/bootstrap/bootstrap.min.css" />
   </head>
   <body>
     <h1>Hello World!</h1>
@@ -25,10 +26,13 @@
     <a href="app/views/settings/settings.html">Go to settings</a><br/><br/>
 
     <textarea id="test-textarea"></textarea><br/>
-    <input type="button" id="test-button" value="Test RENDER/MAIN" /><br/>
+    <input type="button" class="btn btn-success" id="test-button" value="Test RENDER/MAIN" /><br/>
     <p>Answer from ipcMain : <b id="test-answer"></b></p>
 
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
+    <script type="text/javascript" src="./app/resources/external-libs/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="./app/resources/external-libs/popper/popper.min.js"></script>
+    <script src="./app/resources/external-libs/bootstrap/bootstrap.min.js"></script>
   </body>
 </html>
