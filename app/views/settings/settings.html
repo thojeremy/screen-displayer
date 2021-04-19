@@ -5,10 +5,10 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Screen Displayer</title>
+    <title>Screen Displayer - Settings</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1>Settings</h1>
 
     <p>
       We are using Node.js <span id="node-version"></span>,
@@ -22,11 +22,7 @@
       Hello <span id="world"></span>
     </p>
 
-    <a href="app/views/settings/settings.html">Go to settings</a><br/><br/>
-
-    <textarea id="test-textarea"></textarea><br/>
-    <input type="button" id="test-button" value="Test RENDER/MAIN" /><br/>
-    <p>Answer from ipcMain : <b id="test-answer"></b></p>
+    <a href="../../../index.html">Go back to homepage</a>
 
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
